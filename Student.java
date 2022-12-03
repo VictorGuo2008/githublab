@@ -10,7 +10,7 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student b = new Student("Jhon Doe");
+        Student b = new Student("John Doe");
         b.printStudent();
     }
 }
