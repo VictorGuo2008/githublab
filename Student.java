@@ -1,8 +1,10 @@
 public class Student {
     String name;
+    String email;
 
-    public Student(String n) {
+    public Student(String n, String e) {
         name = n;
+        email = e;
     }
 
     public void printStudent() {
@@ -10,7 +12,6 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student b = new Student("John Doe");
+        Student b = new Student("John Doe", "exampleemail@gmail.com");
         b.printStudent();
     }
-}
